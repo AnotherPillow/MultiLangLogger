@@ -1,10 +1,10 @@
-import chalk, { ChalkInstance } from 'chalk';
+import chalk from 'chalk';
 import { strftime } from '../typescript_strftime/strftime';
 
 /*
     This code is licensed under GNU GPL v3.0. The original repository can be found at: https://github.com/AnotherPillow/MultiLangLogger    
     */
-
+type ChalkInstance = typeof chalk.blue & typeof chalk
 
 export default class /* Logger */ {
     time_colour: ChalkInstance | Function = chalk.gray
