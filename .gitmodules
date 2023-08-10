@@ -1,0 +1,6 @@
+[submodule "typescript_strftime"]
+	path = typescript_strftime
+	url = https://github.com/GoldenProxy/strftime
+[submodule "javascript_strftime"]
+	path = javascript_strftime
+	url = https://github.com/thdoan/strftime

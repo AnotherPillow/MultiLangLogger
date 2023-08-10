@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "chalk": "^4.1.2"
+    },
+    "scripts": {
+        "install": "npm i && npm install -g typescript ts-node",
+        "dev": "ts-node index.ts",
+        "build": "tsc index.ts"
+    }
+}
