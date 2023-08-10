@@ -1,5 +1,9 @@
 import colorama, time
 
+"""
+    This code is licensed under GNU GPL v3.0. The original repository can be found at: https://github.com/AnotherPillow/MultiLangLogger    
+    """
+
 class Logger:
     time_color = colorama.Fore.LIGHTBLACK_EX
     time_format = '%Y-%m-%d %H:%M:%S'
@@ -19,6 +23,7 @@ class Logger:
 
 
     def __init__(self, name: str):
+        """Creates a new logger instance."""
         self.name = name
 
     def __Log(

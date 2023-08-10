@@ -5,7 +5,7 @@ const { ChalkInstance } = require('chalk');
 const strftime = require('../javascript_strftime/strftime');
 
 /*
-    This code has been adapted from https://github.com/AnotherPillow/farm-computer/blob/main/src/logger.py
+    This code is licensed under GNU GPL v3.0. The original repository can be found at: https://github.com/AnotherPillow/MultiLangLogger    
     */
 
 
