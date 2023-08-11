@@ -11,6 +11,7 @@ class Logger:
     info_color = colorama.Fore.LIGHTBLUE_EX
     warn_color = colorama.Fore.LIGHTYELLOW_EX
     error_color = colorama.Fore.LIGHTRED_EX
+    success_color = colorama.Fore.LIGHTGREEN_EX
 
     
     type_col_dict = {
