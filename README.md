@@ -4,7 +4,11 @@ A simple, colourful logger for several different languages.
 
 ## Installation
 
-`git submodule add https://github.com/anotherpillow/MultiLangLogger.git <path/to/directory>`
+```bash
+# Make sure to run both
+git submodule add https://github.com/anotherpillow/MultiLangLogger.git <path/to/directory>
+git submodule update --init --recursive
+```
 
 ## Usage
 
