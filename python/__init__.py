@@ -19,7 +19,8 @@ class Logger:
     type_col_dict = {
         'info': info_color,
         'warn': warn_color,
-        'error': error_color
+        'error': error_color,
+        'success': success_color,
     }
     
     name_color = colorama.Fore.LIGHTMAGENTA_EX
@@ -54,3 +55,6 @@ class Logger:
 
     def error(self, message: str):
         self.__Log(message, 'error')
+
+    def success(self, message: str):
+        self.__Log(message, 'success')
