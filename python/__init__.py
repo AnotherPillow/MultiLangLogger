@@ -1,8 +1,10 @@
-import colorama, time
+import colorama, time, os
 
 """
     This code is licensed under GNU GPL v3.0. The original repository can be found at: https://github.com/AnotherPillow/MultiLangLogger    
     """
+if os.name == 'nt':
+    colorama.just_fix_windows_console()
 
 class Logger:
     time_color = colorama.Fore.LIGHTBLACK_EX
